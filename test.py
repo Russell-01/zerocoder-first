@@ -1,6 +1,6 @@
 class Warrior():
 
-    def init (self, name, power, endurance, hair_color ):
+    def __init__ (self, name, power, endurance, hair_color ):
         self.name = name
         self.power = power
         self.endurance = endurance
@@ -13,7 +13,7 @@ class Warrior():
 
 
     def eat(self):
-        print(f"{self.mane} сел кушать")
+        print(f"{self.name} сел кушать")
         self.power += 1
 
     def hit(self):
